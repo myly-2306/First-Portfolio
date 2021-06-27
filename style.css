@@ -1,0 +1,180 @@
+:root {
+    --light: #b3b300   ;
+    --font-family: cursive;
+    --font-size: 40px;
+    --background-color: #ffffe6;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 2px;
+}
+
+body {
+    background-color:var(--background-color);
+    border: 3px solid goldenrod ;
+}
+
+header {
+    padding: 36px;
+    display: block;
+    text-align: center;
+    background-color: #8a8a5c;
+    color: white;
+    
+}
+
+header a {
+    font-family: var(--font-family);
+    font-size: 18px;
+    padding: 7px;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: var(--light);
+    justify-content: space-around;
+}
+
+section h2, h3, h4 {
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+section h3 {
+    font-size:var(--font-size);
+    font-weight: 800;
+}
+
+section h2 {
+    font-size: 60px;
+}
+
+section img {
+    margin: 6px;
+    border: 3px solid goldenrod ;
+    padding: 5px;
+    border-radius: 60px;
+    background-color:var(--background-color) ;
+}
+
+h4 {
+    font-size: 20px;
+}
+ 
+figure {
+    margin: 6px;
+    
+    padding: 5px;
+    border-radius: 60px;
+    background-color:var(--background-color) ;
+    
+}
+
+figure header {
+    border-radius: 60px 60px 0 0;
+    font-size: 14px;
+}
+
+figure img {
+    border-radius: 0 0 60px 60px;
+}
+
+figure a: any-link {
+    color: link;
+    cursor: pointer;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: stretch;
+}
+
+aside, .section-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: stretch;
+}
+
+aside {
+    border-right: 3px solid #808080;
+    width: 22%;
+}
+
+.section-content {
+    width: 78%;
+    align-items: center;
+}
+
+aside section {
+    background-color: transparent;
+}
+
+.about {
+    height: 150px;
+    font-size: 18px;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+ .work {
+    height: 600px;
+}
+.contact {
+    height: 90px;
+    font-size: 18px;
+}
+
+.contact li {
+    padding: 40px;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* .work {
+    display:flex;
+    flex-direction: row;
+    width: 70%;
+} */
+
+.work div{
+    display: flex;
+    flex-direction: row;
+}
+
+/* area {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: stretch;
+} */
+
+/* .area-top, .area-bottom {
+    display: block;
+    
+} */
+
+footer {
+    padding: 26px;
+    display: block;
+    text-align: center;
+    background-color: #8a8a5c;
+    color: white;
+}
