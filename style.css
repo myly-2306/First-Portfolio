@@ -149,27 +149,35 @@ aside section {
     justify-content: space-evenly;
 }
 
-/* .work {
-    display:flex;
-    flex-direction: row;
-    width: 70%;
-} */
-
 .work div{
     display: flex;
     flex-direction: row;
 }
 
-/* area {
-    display: inline-block;
-    flex-direction: column;
-    justify-content: stretch;
-} */
+@media screen and (max-width: 1200px) {
+    .work {
+        height: 800px;
+    }
+}
 
-/* .area-top, .area-bottom {
-    display: block;
-    
-} */
+@media screen and (max-width: 768px) {
+    .about{
+        height: 300px;
+    }
+    .work {
+        height: 900px;
+  }
+    .contact {
+    height: 300px;
+  }
+    aside h2 {
+      font-size: 30px;
+  }
+    area figure {
+        display: inline-block;
+        flex-direction: column;
+    }
+}
 
 footer {
     padding: 26px;
